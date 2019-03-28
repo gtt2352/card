@@ -1,0 +1,8 @@
+<view class="container">
+    <!-- <image class="avatar" src="/images/avatar/avatar-1.png"></image> -->
+    <text class="motto">Hello, 欢迎来到卡券测试</text>
+    <view class="userinfo journey-container" >
+       <button class="journey" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 开启测试之旅 </button>
+    </view>
+ 
+</view>

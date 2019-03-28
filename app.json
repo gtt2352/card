@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/popular/popular",
+    "pages/coming/coming"
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#47a86c",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText":  "卡券测试",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#686868",
+    "selectedColor": "#47a86c",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/popular/popular",
+      "iconPath": "dist/images/popular_icon.png",
+      "selectedIconPath": "dist/images/popular_active_icon.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/coming/coming",
+      "iconPath": "dist/images/coming_icon.png",
+      "selectedIconPath": "dist/images/coming_active_icon.png",
+      "text": "我的卡券"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
